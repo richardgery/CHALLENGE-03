@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+	<link rel="stylesheet" href="../public/style/style.css">
+	<link rel="icon" href="../public/img/Logo Binar Academy.png" type="png">
+    <title>dashboard</title>
+</head>
+<body>
+    <form action="/dashboard" method="POST">
+	<section id="sidebar">
+		<a href="#" class="brand"></a>
+		<ul class="side-menu">
+			<li>
+				<a href="#" style="color: white"><i class='bx bx-home-alt icon' ></i> Dashboard <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="#" style="color: white;">Dashboard</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#" style="color: white"><i class='bx bxs-truck icon' ></i> Cars <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="/list" style="color: white;">List Car</a></li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu toggle-sidebar' ></i>
+			<form action="#">
+				<div class="form-group">
+					<i class='bx bx-search icon'></i>
+					<input type="text" placeholder="Search">
+				</div>
+			</form>
+			<button type="button" class="group">Search</button>
+			<div class="profile">
+				<img src="../public/img/Group 15.png" alt="">
+				<ul class="profile-link">
+					<li><a href="#"><i class='bx bxs-user-circle icon' ></i> Profile</a></li>
+					<li><a href="#"><i class='bx bxs-cog' ></i> Settings</a></li>
+					<li><a href="#"><i class='bx bxs-log-out-circle' ></i> Logout</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<ul class="breadcrumbs">
+				<li><a href="#">Dashboard</a></li>
+				<li class="divider"><i class='bx bx-chevron-right icon-right' ></i></li>
+				<li><a href="#" class="active">Dashboard</a></li>
+			</ul>
+			<h1 class="title">Dashboard</h1>
+            <div class="container">
+            <div class="box"></div>
+            <h1 class="beam">List Order</h1>
+            </div>
+            <div class="container py-4">
+			<table id="example" class="table table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        
+                        <th>User Email</th>
+                        <th>Car</th>
+                        <th>Start Rent</th>
+                        <th>Finish Rent</th>
+                        <th>Price</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td>User Email</td>
+                        <td>Car</td>
+                        <td>Start Rent</td>
+                        <td>Finish Rent</td>
+                        <td>Price</td>
+                        <td>Status</td>
+                    </tr> 
+                </tbody>
+            </table>
+            </div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- NAVBAR -->
+    </form>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+	<script src="../public/js/index.js"></script>
+</body>
+</html>

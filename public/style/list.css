@@ -1,0 +1,21 @@
+body{
+    background: #eee5e9;
+}
+
+.grid{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.grid > article{
+    border-radius: 8px;
+    background: white;
+}
+
+.grid > article:hover{
+    transform: translateY(5px);
+    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+}
