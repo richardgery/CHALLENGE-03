@@ -204,3 +204,6 @@ chart.render();
 $(document).ready(function() {
     $('#example').DataTable();
 });
+
+
+
