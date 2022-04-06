@@ -345,6 +345,20 @@ main .breadcrumbs li.divider {
 	color: #222;
 	pointer-events: none;
 }
+main .row button {
+	position: relative;
+	top: 25px;
+	margin-left: 224px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+	width: 142px;
+	height: 36px;
+	background: #0d28a6;
+	border-radius: 2px;
+}
 main .info-data {
 	margin-top: 36px;
 	display: grid;
@@ -570,12 +584,88 @@ main .btn-send {
 main .btn-send:hover {
 	background: var(--dark-blue);
 }
+main .contain button{
+	padding-left: 6px;
+	width: 65px;
+	height: 36px;
+	background: #fff;
+	color: #AEB7E1;
+	border: 1px solid #0d28a6;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	margin-left: 10px;
+}
 main .grid{
-    margin: 80px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     align-items: center;
+}
+
+main .row i{
+	margin-right: 9px;
+}
+
+main .grid .edit{
+	border: 1px solid #5CB85F;
+	box-sizing: border-box;
+	background: #5CB85F;
+	border-radius: 2px;
+	height: 48px;
+	width: 100px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+}
+
+main .grid .trash{
+	border: 1px solid #fa2c5a;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 2px;
+	height: 48px;
+	width: 100px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	color: #fa2c5a;
+	
+}
+
+main .grid h3{
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000;
+}
+
+main .grid h2{
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	color: #000;
+}
+
+main .grid p{
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	color: #000;
+}
+
+main .grid i{
+	margin-right: 6px;
 }
 
 main .grid > article{
